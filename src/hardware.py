@@ -1,6 +1,7 @@
 # Libraries
 from PIL import ImageFont, ImageDraw, Image
 from os import system, path, getenv
+system("sudo ifconfig wlan0 down") # Turn Off Wifi
 from socket import gethostbyname, gethostname
 from time import sleep
 from datetime import datetime
